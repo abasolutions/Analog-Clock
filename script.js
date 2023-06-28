@@ -15,8 +15,6 @@ setInterval(() => {
     mh_rot = (6 * min) + 90;
     sh_rot = (6 * sec) + 90;
 
-    console.log(sec);
-
     sh.style.transform = `rotate(${sh_rot}deg)`;
     mh.style.transform = `rotate(${mh_rot}deg)`;
     hh.style.transform = `rotate(${hh_rot}deg)`;
